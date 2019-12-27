@@ -50,6 +50,8 @@ It correctly bundles the Koffie-time-app in production mode and optimizes the bu
 The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
+---
+
 ## Changes
 
 See [CHANGELOG.md]() for detailed list of changes between releases.
