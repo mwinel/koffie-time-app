@@ -1,5 +1,4 @@
-[](https://github.com/mwinel/koffie-time-app/.github/workflows/main.yml/badge.svg)
-[](https://github.com/jonasbn/til/workflows/Koffietime%20App%20CI/badge.svg)
+![](https://github.com/mwinel/koffie-time-app/.github/workflows/Koffietime%20App%20CI/badge.svg)
 
 # KOFFIE TIME APP
 
