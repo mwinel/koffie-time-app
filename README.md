@@ -40,6 +40,10 @@ You will also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.<br />
 
+    $ npm test -- --coverage --watchAll=false
+
+Launches the test runner in the interactive watch mode with test code coverage.<br />
+
 ## Simple build for production
 
     $ npm run build
