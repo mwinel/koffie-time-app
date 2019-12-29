@@ -1,3 +1,5 @@
+[](https://github.com/mwinel/koffie-time-app/.github/workflows/main.yml/badge.svg)
+
 # KOFFIE TIME APP
 
 Koffietime is an open source blogging platform.
