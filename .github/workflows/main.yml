@@ -27,5 +27,9 @@ jobs:
     - name: Run unit tests
       run: |
         npm test -- --verbose --coverage --watchAll=false
+    - name: Run linting
+      run: |
+        npm install lint
+        npm run lint
       env:
         CI: true
