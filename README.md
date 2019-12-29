@@ -1,6 +1,6 @@
-![](https://github.com/mwinel/koffie-time-app/.github/workflows/Koffietime%20App%20CI/badge.svg)
+![Workflow Status Badge](https://github.com/mwinel/koffie-time-app/.github/workflows/Koffietime%20App%20CI/badge.svg)
 
-![](https://github.com/mwinel/koffie-time-app/.github/workflows/main.yml/badge.svg)
+![Workflow Status Badge](https://github.com/mwinel/koffie-time-app/.github/workflows/main.yml/badge.svg)
 
 # KOFFIE TIME APP
 
