@@ -1,7 +1,5 @@
 ![Workflow Status Badge](https://github.com/mwinel/koffie-time-app/workflows/Koffietime%20App%20CI/badge.svg)
 
-![Workflow Status Badge](https://github.com/mwinel/koffie-time-app/.github/workflows/main.yml/badge.svg)
-
 # KOFFIE TIME APP
 
 Koffietime is an open source blogging platform.
