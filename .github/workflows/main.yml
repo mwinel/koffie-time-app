@@ -1,6 +1,6 @@
 name: Koffietime App CI
 
-on: [push]
+on: [push, pull_request]
 
 jobs:
   build:
@@ -9,7 +9,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [8.x, 10.x, 12.x]
+        node-version: [10.x, 12.x]
 
     steps:
     - uses: actions/checkout@v1
@@ -27,9 +27,5 @@ jobs:
     - name: Run unit tests
       run: |
         npm test -- --verbose --coverage --watchAll=false
-    - name: Run linting
-      run: |
-        npm install lint
-        npm lint
       env:
         CI: true
