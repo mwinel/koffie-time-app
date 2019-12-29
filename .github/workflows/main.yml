@@ -30,6 +30,6 @@ jobs:
     - name: Run linting
       run: |
         npm install lint
-        npm run lint
+        npm lint
       env:
         CI: true
