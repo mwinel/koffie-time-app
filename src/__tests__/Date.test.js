@@ -2,7 +2,7 @@ import React from "react";
 import { render, unmountComponentAtNode } from "react-dom";
 import { act } from "react-dom/test-utils";
 import pretty from "pretty";
-import NotFound from "../components/NotFound";
+import CreateDate from "../components/Date";
 
 let container = null;
 
@@ -19,12 +19,10 @@ afterEach(() => {
   container = null;
 });
 
-const location = { pathname: '/notfound' };
-
-it("renders notfound component", () => {
+it("renders date component", () => {
   act(() => {
-    render(<NotFound location={location} />, container);
+    render(<CreateDate monthName="Dec" />, container);
   });
-  expect(container.textContent).toBe("404page not foundThe requested URL /notfound was not found.");
+  expect(container.innerHTML).toBeDefined();
   expect(pretty(container.innerHTML)).toMatchSnapshot();
 });

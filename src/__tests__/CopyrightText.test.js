@@ -2,7 +2,8 @@ import React from "react";
 import { render, unmountComponentAtNode } from "react-dom";
 import { act } from "react-dom/test-utils";
 import pretty from "pretty";
-import NotFound from "../components/NotFound";
+import { BrowserRouter } from "react-router-dom";
+import CopyrightText from "../components/CopyrightText";
 
 let container = null;
 
@@ -19,12 +20,16 @@ afterEach(() => {
   container = null;
 });
 
-const location = { pathname: '/notfound' };
-
-it("renders notfound component", () => {
+it("renders copyright-text component", () => {
   act(() => {
-    render(<NotFound location={location} />, container);
+    render(
+      <BrowserRouter>
+        <CopyrightText />
+      </BrowserRouter>,
+      container
+    );
   });
-  expect(container.textContent).toBe("404page not foundThe requested URL /notfound was not found.");
+  expect(container.innerHTML).toBeDefined();
+  expect(container.innerHTML).toContain("© KoffieTime 2019");
   expect(pretty(container.innerHTML)).toMatchSnapshot();
 });

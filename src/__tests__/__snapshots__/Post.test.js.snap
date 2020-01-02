@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders post component 1`] = `
+"<div class=\\"col-sm-4\\">
+  <div class=\\"post-card pb-1\\">
+    <div><a href=\\"/post\\">
+        <div class=\\"card-image\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; height: 185px;\\"></div>
+      </a></div>
+    <div class=\\"flex flex-row flex-nowrap\\">
+      <div class=\\"pt-4\\"><small>undefined NaN </small> <span class=\\"dot-divider\\">·</span> <small></small></div><a href=\\"/post\\">
+        <h5 class=\\"card-title font-weight-bold pt-2\\"></h5>
+      </a>
+      <div class=\\"py-2\\">
+        <div class=\\"author-avatar mr-2\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; width: 36px; height: 36px;\\"></div><small class=\\"username\\"><a href=\\"/\\">@</a></small>
+      </div>
+    </div>
+  </div>
+</div>"
+`;

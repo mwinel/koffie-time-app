@@ -1,0 +1,114 @@
+:root {
+  --textColor: #24292e;
+  --whiteColor: #ffffff;
+  --linkGreyColor: #586069;
+  --highlightColor: #1074e7;
+  --borderColor: #e1e4e8;
+  --backgroundGreyColor: #fafbfc;
+}
+
+body {
+  font-family: inherit !important;
+  font-size: 0.875rem;
+  color: var(--textColor) !important;
+}
+
+a {
+  color: var(--linkGreyColor) !important;
+}
+
+a:hover {
+  color: var(--highlightColor) !important;
+  text-decoration: none !important;
+}
+
+nav {
+  background-color: var(--whiteColor);
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1060px !important;
+  }
+}
+
+.navbar {
+  border-bottom: 1px solid var(--borderColor);
+}
+
+.nav-link {
+  color: var(--linkGreyColor) !important;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  color: var(--highlightColor) !important;
+}
+
+.footer-title {
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.footer-link {
+  font-size: 0.85rem;
+  color: var(--linkGreyColor);
+}
+
+.footer-link:hover {
+  text-decoration: none;
+  color: var(--highlightColor);
+}
+
+.footer-bottom {
+  background-color: var(--backgroundGreyColor);
+}
+
+.copyright-text {
+  color: var(--linkGreyColor);
+}
+
+.copyright-text-link {
+  color: var(--linkGreyColor);
+}
+
+.author-avatar {
+  display: inline-block;
+  vertical-align: middle;
+  border: 0px solid var(--borderColor);
+  border-radius: 50%;
+  background-color: var(--backgroundGreyColor);
+  width: 100%;
+}
+
+.grid-title {
+  color: var(--linkGreyColor);
+}
+
+.form-group {
+  margin-bottom: 0.6rem !important;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 1.375rem 0.75rem !important;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--textColor) !important;
+  background-color: var(--whiteColor) !important;
+  background-clip: padding-box;
+  border: 0px solid;
+  border-radius: 0rem !important;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.newsletter-section {
+  background-color: var(--backgroundGreyColor);
+}
+
+.see-more {
+  text-align: center;
+}

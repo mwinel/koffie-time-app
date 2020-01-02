@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders newsletter component 1`] = `
+"<section class=\\"newsletter-section my-5\\">
+  <div class=\\"container py-5\\">
+    <div class=\\"row\\">
+      <div class=\\"col-sm-3\\"></div>
+      <div class=\\"col-sm-6\\">
+        <div class=\\"py-5 my-5\\">
+          <h4 class=\\"pb-4\\">Join our newsletter for the latest tips and tricks to grow your career.</h4>
+          <form>
+            <div class=\\"form-group\\"><input type=\\"email\\" class=\\"form-control\\" placeholder=\\"Email Address\\"></div>
+            <div class=\\"form-row\\">
+              <div class=\\"form-group col-md-6\\"><input type=\\"text\\" class=\\"form-control\\" placeholder=\\"First name\\"></div>
+              <div class=\\"form-group col-md-6\\"><input type=\\"text\\" class=\\"form-control\\" placeholder=\\"Last name\\"></div>
+            </div><button type=\\"submit\\" class=\\"sc-bdVaJa gKnoUA btn btn-primary\\">Subscribe Now</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>"
+`;

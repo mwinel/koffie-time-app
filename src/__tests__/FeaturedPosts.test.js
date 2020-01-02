@@ -1,8 +1,11 @@
 import React from "react";
 import { render, unmountComponentAtNode } from "react-dom";
 import { act } from "react-dom/test-utils";
+import { BrowserRouter } from "react-router-dom";
 import pretty from "pretty";
-import NotFound from "../components/NotFound";
+import FeaturedPosts from "../components/featured/FeaturedPosts";
+import { PostProvider } from "../context";
+import value from "../testHelpers";
 
 let container = null;
 
@@ -19,12 +22,17 @@ afterEach(() => {
   container = null;
 });
 
-const location = { pathname: '/notfound' };
-
-it("renders notfound component", () => {
+it("renders featured-posts component", () => {
   act(() => {
-    render(<NotFound location={location} />, container);
+    render(
+      <BrowserRouter>
+        <PostProvider>
+          <FeaturedPosts {...value} />
+        </PostProvider>
+      </BrowserRouter>,
+      container
+    );
   });
-  expect(container.textContent).toBe("404page not foundThe requested URL /notfound was not found.");
+  expect(container.innerHTML).toBeDefined();
   expect(pretty(container.innerHTML)).toMatchSnapshot();
 });

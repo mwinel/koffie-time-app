@@ -1,9 +1,10 @@
 import React from "react";
 import { render, unmountComponentAtNode } from "react-dom";
 import { act } from "react-dom/test-utils";
+import { BrowserRouter } from "react-router-dom";
 import pretty from "pretty";
-
 import Default from "../components/Default";
+import { PostProvider } from "../context";
 
 let container = null;
 
@@ -22,8 +23,15 @@ afterEach(() => {
 
 it("renders default component", () => {
   act(() => {
-    render(<Default />, container);
+    render(
+      <BrowserRouter>
+        <PostProvider>
+          <Default />
+        </PostProvider>
+      </BrowserRouter>,
+      container
+    );
   });
-  expect(container.textContent).toBe("koffie time app");
+  expect(container.innerHTML).toBeDefined();
   expect(pretty(container.innerHTML)).toMatchSnapshot();
 });
