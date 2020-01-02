@@ -99,8 +99,7 @@ nav {
   color: var(--textColor) !important;
   background-color: var(--whiteColor) !important;
   background-clip: padding-box;
-  border: 0px solid;
-  border-radius: 0rem !important;
+  border-radius: 2px !important;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
