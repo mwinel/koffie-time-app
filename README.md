@@ -2,7 +2,7 @@
 
 # KOFFIE TIME APP
 
-Koffietime is an open source blogging platform.
+Koffietime is an open source blogging platform. See [demo](https://koffietime.netlify.com/).
 
 ## Requirements
 
