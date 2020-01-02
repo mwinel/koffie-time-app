@@ -4,7 +4,9 @@ exports[`renders post component 1`] = `
 "<div class=\\"col-sm-4\\">
   <div class=\\"post-card pb-1\\">
     <div><a href=\\"/post\\">
-        <div class=\\"card-image\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; height: 185px;\\"></div>
+        <div class=\\"image-container\\">
+          <div class=\\"card-image\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; height: 185px;\\"></div>
+        </div>
       </a></div>
     <div class=\\"flex flex-row flex-nowrap\\">
       <div class=\\"pt-4\\"><small>undefined NaN </small> <span class=\\"dot-divider\\">·</span> <small></small></div><a href=\\"/post\\">

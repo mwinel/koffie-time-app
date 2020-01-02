@@ -2,7 +2,9 @@
 
 exports[`renders featured-post component 1`] = `
 "<div class=\\"col-sm-7\\"><a href=\\"/post\\">
-    <div class=\\"featured-post-image-wrapper pb-5\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; height: 350px;\\"></div>
+    <div class=\\"image-container\\">
+      <div class=\\"featured-post-image-wrapper pb-5\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; height: 350px;\\"></div>
+    </div>
   </a></div>
 <div class=\\"col-sm-5\\">
   <div class=\\"pb-2\\"><small>undefined NaN </small> <span class=\\"dot-divider\\">·</span> <small></small></div><a href=\\"/post\\">

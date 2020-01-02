@@ -27,10 +27,12 @@ class FeaturedPost extends Component {
           <>
             <div className="col-sm-7">
               <Link to={"/post"}>
-                <div
-                  className="featured-post-image-wrapper pb-5"
-                  style={styles}
-                ></div>
+                <div className="image-container">
+                  <div
+                    className="featured-post-image-wrapper pb-5"
+                    style={styles}
+                  ></div>
+                </div>
               </Link>
             </div>
             <div className="col-sm-5">

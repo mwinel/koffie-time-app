@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders post-detail component 1`] = `"<div class=\\"container\\">post detail</div>"`;

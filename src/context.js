@@ -6,6 +6,7 @@ const PostContext = React.createContext();
 class PostProvider extends Component {
   state = {
     posts: [],
+    notFeatured: [],
     featuredPosts: [],
     featuredTutorials: [],
     featuredEngineering: [],
@@ -19,6 +20,7 @@ class PostProvider extends Component {
 
   setPosts = () => {
     let tempPosts = [];
+    let notFeatured = [];
     let featuredPosts = [];
     let featuredTutorials = [];
     let featuredEngineering = [];
@@ -27,6 +29,9 @@ class PostProvider extends Component {
     Posts.forEach(item => {
       const singlePost = { ...item };
       tempPosts = [...tempPosts, singlePost];
+      // not featured.
+      const notfeatured = tempPosts.filter(item => item.featured === false);
+      notFeatured = [...notfeatured]
       // featured post.
       const featured = tempPosts.filter(item => item.featured === true);
       featuredPosts = [...featured.slice(0, 1)];
@@ -57,7 +62,8 @@ class PostProvider extends Component {
     });
     this.setState(() => {
       return {
-        posts: tempPosts.filter(item => item.featured === false),
+        posts: tempPosts,
+        notFeatured: notFeatured.filter(item => item.featured === false),
         featuredPosts: featuredPosts,
         featuredTutorials: featuredTutorials.filter(item => item.featured === false),
         featuredEngineering: featuredEngineering.filter(item => item.featured === false),

@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders pagination component 1`] = `
+"<nav aria-label=\\"Page navigation example\\">
+  <ul class=\\"pagination justify-content-center py-4\\">
+    <li class=\\"page-item disabled\\"><a class=\\"page-link\\" tabindex=\\"-1\\" href=\\"/all\\">Prev</a></li>
+    <li class=\\"page-item\\"><a class=\\"page-link\\" href=\\"/all\\">1</a></li>
+    <li class=\\"page-item\\"><a class=\\"page-link\\" href=\\"/all\\">2</a></li>
+    <li class=\\"page-item\\"><a class=\\"page-link\\" href=\\"/all\\">Next</a></li>
+  </ul>
+</nav>"
+`;
