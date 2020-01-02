@@ -30,7 +30,9 @@ class Post extends Component {
               <>
                 <div>
                   <Link to={"/post"}>
-                    <div className="card-image" style={styles}></div>
+                    <div className="image-container">
+                      <div className="card-image" style={styles}></div>
+                    </div>
                   </Link>
                 </div>
                 <div className="flex flex-row flex-nowrap">

@@ -1,0 +1,176 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders featured-posts component 1`] = `
+"<div class=\\"container\\">
+  <h6 class=\\"grid-title pt-4 pb-2\\">All Posts</h6>
+  <div>
+    <div class=\\"row\\">
+      <div class=\\"col-sm-8\\">
+        <div class=\\"row\\">
+          <div class=\\"col-sm-6\\">
+            <div class=\\"pb-5\\">
+              <div><a href=\\"/post\\">
+                  <div class=\\"image-container\\">
+                    <div class=\\"card-image\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; height: 185px;\\"></div>
+                  </div>
+                </a></div>
+              <div class=\\"pt-4\\"><small>Dec 26 2019 </small> <span class=\\"dot-divider\\">·</span> <small>9 min read</small></div><a href=\\"/post\\">
+                <h5 class=\\"posts-title font-weight-bold pt-2\\">How to build action android electonic devices.</h5>
+              </a>
+              <div class=\\"py-2\\">
+                <div class=\\"author-avatar mr-2\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; width: 36px; height: 36px;\\"></div><small class=\\"username\\"><a href=\\"/\\">@janedutton</a></small>
+              </div>
+            </div>
+          </div>
+          <div class=\\"col-sm-6\\">
+            <div class=\\"pb-5\\">
+              <div><a href=\\"/post\\">
+                  <div class=\\"image-container\\">
+                    <div class=\\"card-image\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; height: 185px;\\"></div>
+                  </div>
+                </a></div>
+              <div class=\\"pt-4\\"><small>Dec 26 2019 </small> <span class=\\"dot-divider\\">·</span> <small>12 min read</small></div><a href=\\"/post\\">
+                <h5 class=\\"posts-title font-weight-bold pt-2\\">Understanding Neuro-Networks like a child</h5>
+              </a>
+              <div class=\\"py-2\\">
+                <div class=\\"author-avatar mr-2\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; width: 36px; height: 36px;\\"></div><small class=\\"username\\"><a href=\\"/\\">@janedutton</a></small>
+              </div>
+            </div>
+          </div>
+          <div class=\\"col-sm-6\\">
+            <div class=\\"pb-5\\">
+              <div><a href=\\"/post\\">
+                  <div class=\\"image-container\\">
+                    <div class=\\"card-image\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; height: 185px;\\"></div>
+                  </div>
+                </a></div>
+              <div class=\\"pt-4\\"><small>Mar 26 2019 </small> <span class=\\"dot-divider\\">·</span> <small>18 min read</small></div><a href=\\"/post\\">
+                <h5 class=\\"posts-title font-weight-bold pt-2\\">Consuming a Django RESTful API with React</h5>
+              </a>
+              <div class=\\"py-2\\">
+                <div class=\\"author-avatar mr-2\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; width: 36px; height: 36px;\\"></div><small class=\\"username\\"><a href=\\"/\\">@janedutton</a></small>
+              </div>
+            </div>
+          </div>
+          <div class=\\"col-sm-6\\">
+            <div class=\\"pb-5\\">
+              <div><a href=\\"/post\\">
+                  <div class=\\"image-container\\">
+                    <div class=\\"card-image\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; height: 185px;\\"></div>
+                  </div>
+                </a></div>
+              <div class=\\"pt-4\\"><small>Nov 26 2019 </small> <span class=\\"dot-divider\\">·</span> <small>18 min read</small></div><a href=\\"/post\\">
+                <h5 class=\\"posts-title font-weight-bold pt-2\\">Five steps to advance your career as a Software Engineer</h5>
+              </a>
+              <div class=\\"py-2\\">
+                <div class=\\"author-avatar mr-2\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; width: 36px; height: 36px;\\"></div><small class=\\"username\\"><a href=\\"/\\">@davidblair</a></small>
+              </div>
+            </div>
+          </div>
+          <div class=\\"col-sm-6\\">
+            <div class=\\"pb-5\\">
+              <div><a href=\\"/post\\">
+                  <div class=\\"image-container\\">
+                    <div class=\\"card-image\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; height: 185px;\\"></div>
+                  </div>
+                </a></div>
+              <div class=\\"pt-4\\"><small>Dec 26 2019 </small> <span class=\\"dot-divider\\">·</span> <small>17 min read</small></div><a href=\\"/post\\">
+                <h5 class=\\"posts-title font-weight-bold pt-2\\">Building a geometric decoration with Python 3</h5>
+              </a>
+              <div class=\\"py-2\\">
+                <div class=\\"author-avatar mr-2\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; width: 36px; height: 36px;\\"></div><small class=\\"username\\"><a href=\\"/\\">@davidblair</a></small>
+              </div>
+            </div>
+          </div>
+          <div class=\\"col-sm-6\\">
+            <div class=\\"pb-5\\">
+              <div><a href=\\"/post\\">
+                  <div class=\\"image-container\\">
+                    <div class=\\"card-image\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; height: 185px;\\"></div>
+                  </div>
+                </a></div>
+              <div class=\\"pt-4\\"><small>May 26 2019 </small> <span class=\\"dot-divider\\">·</span> <small>12 min read</small></div><a href=\\"/post\\">
+                <h5 class=\\"posts-title font-weight-bold pt-2\\">Managing your time as a Remote Software Engineer</h5>
+              </a>
+              <div class=\\"py-2\\">
+                <div class=\\"author-avatar mr-2\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; width: 36px; height: 36px;\\"></div><small class=\\"username\\"><a href=\\"/\\">@spydrmn</a></small>
+              </div>
+            </div>
+          </div>
+          <div class=\\"col-sm-6\\">
+            <div class=\\"pb-5\\">
+              <div><a href=\\"/post\\">
+                  <div class=\\"image-container\\">
+                    <div class=\\"card-image\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; height: 185px;\\"></div>
+                  </div>
+                </a></div>
+              <div class=\\"pt-4\\"><small>Dec 26 2019 </small> <span class=\\"dot-divider\\">·</span> <small>19 min read</small></div><a href=\\"/post\\">
+                <h5 class=\\"posts-title font-weight-bold pt-2\\">Python and Virtual Reality</h5>
+              </a>
+              <div class=\\"py-2\\">
+                <div class=\\"author-avatar mr-2\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; width: 36px; height: 36px;\\"></div><small class=\\"username\\"><a href=\\"/\\">@spydrmn</a></small>
+              </div>
+            </div>
+          </div>
+          <div class=\\"col-sm-6\\">
+            <div class=\\"pb-5\\">
+              <div><a href=\\"/post\\">
+                  <div class=\\"image-container\\">
+                    <div class=\\"card-image\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; height: 185px;\\"></div>
+                  </div>
+                </a></div>
+              <div class=\\"pt-4\\"><small>Dec 26 2017 </small> <span class=\\"dot-divider\\">·</span> <small>8 min read</small></div><a href=\\"/post\\">
+                <h5 class=\\"posts-title font-weight-bold pt-2\\">Sketching your next project System Design</h5>
+              </a>
+              <div class=\\"py-2\\">
+                <div class=\\"author-avatar mr-2\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; width: 36px; height: 36px;\\"></div><small class=\\"username\\"><a href=\\"/\\">@corysims</a></small>
+              </div>
+            </div>
+          </div>
+          <div class=\\"col-sm-6\\">
+            <div class=\\"pb-5\\">
+              <div><a href=\\"/post\\">
+                  <div class=\\"image-container\\">
+                    <div class=\\"card-image\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; height: 185px;\\"></div>
+                  </div>
+                </a></div>
+              <div class=\\"pt-4\\"><small>Apr 26 2018 </small> <span class=\\"dot-divider\\">·</span> <small>7 min read</small></div><a href=\\"/post\\">
+                <h5 class=\\"posts-title font-weight-bold pt-2\\">Top 5 tips for your next design project</h5>
+              </a>
+              <div class=\\"py-2\\">
+                <div class=\\"author-avatar mr-2\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; width: 36px; height: 36px;\\"></div><small class=\\"username\\"><a href=\\"/\\">@corysims</a></small>
+              </div>
+            </div>
+          </div>
+          <div class=\\"col-sm-6\\">
+            <div class=\\"pb-5\\">
+              <div><a href=\\"/post\\">
+                  <div class=\\"image-container\\">
+                    <div class=\\"card-image\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; height: 185px;\\"></div>
+                  </div>
+                </a></div>
+              <div class=\\"pt-4\\"><small>Jan 26 2018 </small> <span class=\\"dot-divider\\">·</span> <small>7 min read</small></div><a href=\\"/post\\">
+                <h5 class=\\"posts-title font-weight-bold pt-2\\">Setting clear career goals as a Software Engineer</h5>
+              </a>
+              <div class=\\"py-2\\">
+                <div class=\\"author-avatar mr-2\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; width: 36px; height: 36px;\\"></div><small class=\\"username\\"><a href=\\"/\\">@davidblair</a></small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <nav aria-label=\\"Page navigation example\\">
+          <ul class=\\"pagination justify-content-center py-4\\">
+            <li class=\\"page-item disabled\\"><a class=\\"page-link\\" tabindex=\\"-1\\" href=\\"/all\\">Prev</a></li>
+            <li class=\\"page-item\\"><a class=\\"page-link\\" href=\\"/all\\">1</a></li>
+            <li class=\\"page-item\\"><a class=\\"page-link\\" href=\\"/all\\">2</a></li>
+            <li class=\\"page-item\\"><a class=\\"page-link\\" href=\\"/all\\">Next</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class=\\"col-sm-4\\">
+        <div class=\\"input-group mb-3\\"><input type=\\"text\\" class=\\"form-control\\" placeholder=\\"Search posts...\\"></div>
+      </div>
+    </div>
+  </div>
+</div>"
+`;

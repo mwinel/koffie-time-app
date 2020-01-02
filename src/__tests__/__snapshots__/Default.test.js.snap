@@ -7,7 +7,9 @@ exports[`renders default component 1`] = `
       <h6 class=\\"grid-title pt-4 pb-2\\">Featured</h6>
       <div class=\\"row\\">
         <div class=\\"col-sm-7\\"><a href=\\"/post\\">
-            <div class=\\"featured-post-image-wrapper pb-5\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; height: 350px;\\"></div>
+            <div class=\\"image-container\\">
+              <div class=\\"featured-post-image-wrapper pb-5\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; height: 350px;\\"></div>
+            </div>
           </a></div>
         <div class=\\"col-sm-5\\">
           <div class=\\"pb-2\\"><small>Jan 26 2018 </small> <span class=\\"dot-divider\\">·</span> <small>7 min read</small></div><a href=\\"/post\\">
@@ -30,7 +32,9 @@ exports[`renders default component 1`] = `
         <div class=\\"col-sm-4\\">
           <div class=\\"post-card pb-1\\">
             <div><a href=\\"/post\\">
-                <div class=\\"card-image\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; height: 185px;\\"></div>
+                <div class=\\"image-container\\">
+                  <div class=\\"card-image\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; height: 185px;\\"></div>
+                </div>
               </a></div>
             <div class=\\"flex flex-row flex-nowrap\\">
               <div class=\\"pt-4\\"><small>Dec 26 2019 </small> <span class=\\"dot-divider\\">·</span> <small>9 min read</small></div><a href=\\"/post\\">
@@ -45,7 +49,9 @@ exports[`renders default component 1`] = `
         <div class=\\"col-sm-4\\">
           <div class=\\"post-card pb-1\\">
             <div><a href=\\"/post\\">
-                <div class=\\"card-image\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; height: 185px;\\"></div>
+                <div class=\\"image-container\\">
+                  <div class=\\"card-image\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; height: 185px;\\"></div>
+                </div>
               </a></div>
             <div class=\\"flex flex-row flex-nowrap\\">
               <div class=\\"pt-4\\"><small>Mar 26 2019 </small> <span class=\\"dot-divider\\">·</span> <small>18 min read</small></div><a href=\\"/post\\">
@@ -60,7 +66,9 @@ exports[`renders default component 1`] = `
         <div class=\\"col-sm-4\\">
           <div class=\\"post-card pb-1\\">
             <div><a href=\\"/post\\">
-                <div class=\\"card-image\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; height: 185px;\\"></div>
+                <div class=\\"image-container\\">
+                  <div class=\\"card-image\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; height: 185px;\\"></div>
+                </div>
               </a></div>
             <div class=\\"flex flex-row flex-nowrap\\">
               <div class=\\"pt-4\\"><small>Dec 26 2019 </small> <span class=\\"dot-divider\\">·</span> <small>17 min read</small></div><a href=\\"/post\\">
@@ -81,7 +89,9 @@ exports[`renders default component 1`] = `
         <div class=\\"col-sm-4\\">
           <div class=\\"post-card pb-1\\">
             <div><a href=\\"/post\\">
-                <div class=\\"card-image\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; height: 185px;\\"></div>
+                <div class=\\"image-container\\">
+                  <div class=\\"card-image\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; height: 185px;\\"></div>
+                </div>
               </a></div>
             <div class=\\"flex flex-row flex-nowrap\\">
               <div class=\\"pt-4\\"><small>Dec 26 2019 </small> <span class=\\"dot-divider\\">·</span> <small>12 min read</small></div><a href=\\"/post\\">
@@ -96,7 +106,9 @@ exports[`renders default component 1`] = `
         <div class=\\"col-sm-4\\">
           <div class=\\"post-card pb-1\\">
             <div><a href=\\"/post\\">
-                <div class=\\"card-image\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; height: 185px;\\"></div>
+                <div class=\\"image-container\\">
+                  <div class=\\"card-image\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; height: 185px;\\"></div>
+                </div>
               </a></div>
             <div class=\\"flex flex-row flex-nowrap\\">
               <div class=\\"pt-4\\"><small>Dec 26 2019 </small> <span class=\\"dot-divider\\">·</span> <small>19 min read</small></div><a href=\\"/post\\">
@@ -111,7 +123,9 @@ exports[`renders default component 1`] = `
         <div class=\\"col-sm-4\\">
           <div class=\\"post-card pb-1\\">
             <div><a href=\\"/post\\">
-                <div class=\\"card-image\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; height: 185px;\\"></div>
+                <div class=\\"image-container\\">
+                  <div class=\\"card-image\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; height: 185px;\\"></div>
+                </div>
               </a></div>
             <div class=\\"flex flex-row flex-nowrap\\">
               <div class=\\"pt-4\\"><small>Dec 26 2017 </small> <span class=\\"dot-divider\\">·</span> <small>8 min read</small></div><a href=\\"/post\\">
@@ -132,7 +146,9 @@ exports[`renders default component 1`] = `
         <div class=\\"col-sm-4\\">
           <div class=\\"post-card pb-1\\">
             <div><a href=\\"/post\\">
-                <div class=\\"card-image\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; height: 185px;\\"></div>
+                <div class=\\"image-container\\">
+                  <div class=\\"card-image\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; height: 185px;\\"></div>
+                </div>
               </a></div>
             <div class=\\"flex flex-row flex-nowrap\\">
               <div class=\\"pt-4\\"><small>Nov 26 2019 </small> <span class=\\"dot-divider\\">·</span> <small>18 min read</small></div><a href=\\"/post\\">
@@ -147,7 +163,9 @@ exports[`renders default component 1`] = `
         <div class=\\"col-sm-4\\">
           <div class=\\"post-card pb-1\\">
             <div><a href=\\"/post\\">
-                <div class=\\"card-image\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; height: 185px;\\"></div>
+                <div class=\\"image-container\\">
+                  <div class=\\"card-image\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; height: 185px;\\"></div>
+                </div>
               </a></div>
             <div class=\\"flex flex-row flex-nowrap\\">
               <div class=\\"pt-4\\"><small>May 26 2019 </small> <span class=\\"dot-divider\\">·</span> <small>12 min read</small></div><a href=\\"/post\\">
@@ -168,7 +186,9 @@ exports[`renders default component 1`] = `
         <div class=\\"col-sm-4\\">
           <div class=\\"post-card pb-1\\">
             <div><a href=\\"/post\\">
-                <div class=\\"card-image\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; height: 185px;\\"></div>
+                <div class=\\"image-container\\">
+                  <div class=\\"card-image\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; height: 185px;\\"></div>
+                </div>
               </a></div>
             <div class=\\"flex flex-row flex-nowrap\\">
               <div class=\\"pt-4\\"><small>Apr 26 2018 </small> <span class=\\"dot-divider\\">·</span> <small>7 min read</small></div><a href=\\"/post\\">

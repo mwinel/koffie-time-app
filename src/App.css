@@ -84,6 +84,19 @@ nav {
   color: var(--linkGreyColor);
 }
 
+.image-container {
+  position: relative;
+  overflow: hidden;
+}
+.card-image,
+.featured-post-image-wrapper {
+  transition: all 0.25s linear;
+}
+.image-container:hover .card-image,
+.image-container:hover .featured-post-image-wrapper {
+  transform: scale(1.05);
+}
+
 .form-group {
   margin-bottom: 0.6rem !important;
 }
@@ -99,8 +112,14 @@ nav {
   color: var(--textColor) !important;
   background-color: var(--whiteColor) !important;
   background-clip: padding-box;
+  border: 2px solid var(--borderColor) !important;
   border-radius: 2px !important;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+  border: 2px solid var(--highlightColor) !important;
 }
 
 .newsletter-section {
@@ -109,4 +128,9 @@ nav {
 
 .see-more {
   text-align: center;
+}
+
+.page-link {
+  font-size: 0.875rem;
+  border: 1px solid var(--borderColor) !important;
 }
