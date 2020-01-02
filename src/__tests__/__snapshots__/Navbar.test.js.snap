@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders navbar component 1`] = `
+"<nav scrolling=\\"true\\" class=\\"navbar navbar-expand-lg py-3 navbar navbar-expand-md navbar-light sticky-top\\">
+  <div class=\\"container\\">
+    <nav class=\\"sc-bdVaJa gRvjIB\\"><a href=\\"/\\"><img src=\\"logo.png\\" width=\\"40\\" alt=\\"logo\\"></a></nav><button aria-controls=\\"responsive-navbar-nav\\" type=\\"button\\" aria-label=\\"Toggle navigation\\" class=\\"navbar-toggler collapsed\\"><span class=\\"navbar-toggler-icon\\"></span></button>
+    <div class=\\"navbar-collapse collapse\\" id=\\"responsive-navbar-nav\\">
+      <ul class=\\"navbar-nav mr-auto mt-2 mt-lg-0 ml-lg-5\\"><a href=\\"#\\" class=\\"nav-link px-lg-3 nav-link\\" role=\\"button\\">Engineering</a><a href=\\"#\\" class=\\"nav-link px-lg-3 nav-link\\" role=\\"button\\">Design</a><a href=\\"#\\" class=\\"nav-link px-lg-3 nav-link\\" role=\\"button\\">Career</a><a href=\\"#\\" class=\\"nav-link px-lg-3 nav-link\\" role=\\"button\\">Tutorials</a></ul>
+      <ul class=\\"navbar-nav mt-2 mt-lg-0 ml-lg-5\\"><a href=\\"#\\" class=\\"nav-link px-lg-3 nav-link\\" role=\\"button\\">Login</a></ul><button class=\\"sc-bwzfXH fVpSfU ml-lg-4 mt-3 mt-lg-0\\">Get Started</button>
+    </div>
+  </div>
+</nav>"
+`;

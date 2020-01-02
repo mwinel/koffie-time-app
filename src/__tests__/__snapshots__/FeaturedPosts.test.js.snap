@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders featured-posts component 1`] = `
+"<section class=\\"featured-section pb-4\\" style=\\"background-image: url(/images/cool-background.png); background-position: 0% 100%;\\">
+  <div class=\\"container\\">
+    <h6 class=\\"grid-title pt-4 pb-2\\">Featured</h6>
+    <div class=\\"row\\">
+      <div class=\\"col-sm-7\\"><a href=\\"/post\\">
+          <div class=\\"featured-post-image-wrapper pb-5\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; height: 350px;\\"></div>
+        </a></div>
+      <div class=\\"col-sm-5\\">
+        <div class=\\"pb-2\\"><small>Jan 26 2018 </small> <span class=\\"dot-divider\\">·</span> <small>7 min read</small></div><a href=\\"/post\\">
+          <h2 class=\\"card-title font-weight-bold\\">Setting clear career goals as a Software Engineer</h2>
+        </a>
+        <div class=\\"flex flex-row flex-nowrap\\">
+          <div class=\\"py-2\\">
+            <div class=\\"author-avatar mr-2\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; width: 36px; height: 36px;\\"></div><small class=\\"username\\"><a href=\\"/\\">@davidblair</a></small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>"
+`;

@@ -5,10 +5,11 @@ export const Posts = [
     body:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     image: "images/action-android-device-electronics.jpg",
-    category: "Engineering",
+    category: "tutorial",
     tags: ["robotics"],
     slug: "how-to-build-action-android-electonic-devices.",
     likes: 300,
+    featured: false,
     draft: true,
     public: false,
     reported: false,
@@ -16,7 +17,8 @@ export const Posts = [
     read_time: "9 min read",
     created_on: "2019-12-26T07:31:48.879995Z",
     updated_on: "2019-12-26T07:31:48.879995Z",
-    user: "janedutton"
+    user: "janedutton",
+    avatar: "images/avatar-sample.jpeg"
   },
   {
     id: 2,
@@ -24,10 +26,11 @@ export const Posts = [
     body:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     image: "images/abstract-art-blur-bright.jpg",
-    category: "Engineering",
+    category: "engineering",
     tags: ["robotics"],
     slug: "understanding-neuro-networks-like-a-child",
     likes: 30,
+    featured: false,
     draft: true,
     public: false,
     reported: false,
@@ -35,7 +38,8 @@ export const Posts = [
     read_time: "12 min read",
     created_on: "2019-12-26T07:31:48.879995Z",
     updated_on: "2019-12-26T07:31:48.879995Z",
-    user: "mwinel"
+    user: "janedutton",
+    avatar: "images/avatar-sample.jpeg"
   },
   {
     id: 3,
@@ -43,18 +47,20 @@ export const Posts = [
     body:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     image: "images/blur-close-up-code-computer.jpg",
-    category: "Tutorial",
+    category: "tutorial",
     tags: ["robotics"],
     slug: "consuming-a-django-restful-api-with-react",
     likes: 10,
+    featured: false,
     draft: true,
     public: false,
     reported: false,
     report_count: 0,
     read_time: "18 min read",
-    created_on: "2019-12-26T07:31:48.879995Z",
+    created_on: "2019-03-26T07:31:48.879995Z",
     updated_on: "2019-12-26T07:31:48.879995Z",
-    user: "susan"
+    user: "janedutton",
+    avatar: "images/avatar-sample.jpeg"
   },
   {
     id: 4,
@@ -62,18 +68,20 @@ export const Posts = [
     body:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     image: "images/five-bulb-lights.jpg",
-    category: "Career",
+    category: "career",
     tags: ["engineering", "career"],
     slug: "five-steps-to-advance-your-career-as-a-software-engineer",
     likes: 10,
+    featured: false,
     draft: true,
     public: false,
     reported: false,
     report_count: 0,
     read_time: "18 min read",
-    created_on: "2019-12-26T07:31:48.879995Z",
+    created_on: "2019-11-26T07:31:48.879995Z",
     updated_on: "2019-12-26T07:31:48.879995Z",
-    user: "davidblair"
+    user: "davidblair",
+    avatar: "images/david-blair.jpg"
   },
   {
     id: 5,
@@ -81,10 +89,11 @@ export const Posts = [
     body:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     image: "images/geometric-decoration.jpg",
-    category: "Tutorial",
+    category: "tutorial",
     tags: ["python"],
     slug: "building-a-geometric-decoration-with-python-3",
     likes: 10,
+    featured: false,
     draft: true,
     public: false,
     reported: false,
@@ -92,7 +101,8 @@ export const Posts = [
     read_time: "17 min read",
     created_on: "2019-12-26T07:31:48.879995Z",
     updated_on: "2019-12-26T07:31:48.879995Z",
-    user: "greatestcoder"
+    user: "davidblair",
+    avatar: "images/david-blair.jpg"
   },
   {
     id: 6,
@@ -100,18 +110,20 @@ export const Posts = [
     body:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     image: "images/gray-double-bell-clock.jpg",
-    category: "Career",
+    category: "career",
     tags: ["engineering", "career"],
     slug: "managing-your-time-as-a-remote-software-engineer",
     likes: 15,
+    featured: false,
     draft: true,
     public: false,
     reported: false,
     report_count: 0,
     read_time: "12 min read",
-    created_on: "2019-12-26T07:31:48.879995Z",
+    created_on: "2019-05-26T07:31:48.879995Z",
     updated_on: "2019-12-26T07:31:48.879995Z",
-    user: "spydrmn"
+    user: "spydrmn",
+    avatar: "images/spider-man.jpg"
   },
   {
     id: 7,
@@ -119,10 +131,11 @@ export const Posts = [
     body:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     image: "images/man-wearing-white-virtual-reality-goggles.jpg",
-    category: "Engineering",
+    category: "engineering",
     tags: ["python", "vr"],
     slug: "python-and-virtual-reality",
     likes: 10,
+    featured: false,
     draft: true,
     public: false,
     reported: false,
@@ -130,26 +143,29 @@ export const Posts = [
     read_time: "19 min read",
     created_on: "2019-12-26T07:31:48.879995Z",
     updated_on: "2019-12-26T07:31:48.879995Z",
-    user: "spydrmn"
+    user: "spydrmn",
+    avatar: "images/spider-man.jpg"
   },
   {
     id: 8,
-    title: "Sketching your next project design",
+    title: "Sketching your next project System Design",
     body:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     image: "images/notebook-beside-the-iphone-on-table.jpg",
-    category: "Design",
+    category: "engineering",
     tags: ["design", "ux/ui"],
     slug: "sketching-your-next-project-design",
     likes: 11,
+    featured: false,
     draft: true,
     public: false,
     reported: false,
     report_count: 0,
     read_time: "8 min read",
-    created_on: "2019-12-26T07:31:48.879995Z",
+    created_on: "2017-12-26T07:31:48.879995Z",
     updated_on: "2019-12-26T07:31:48.879995Z",
-    user: "corysims"
+    user: "corysims",
+    avatar: "images/cory-sims.jpg"
   },
   {
     id: 9,
@@ -157,18 +173,20 @@ export const Posts = [
     body:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     image: "images/red-lights-in-line-on-black-surface.jpg",
-    category: "Design",
+    category: "design",
     tags: ["design", "ux/ui"],
     slug: "top-5-tips-for-your-next-design-project",
     likes: 17,
+    featured: false,
     draft: true,
     public: false,
     reported: false,
     report_count: 0,
     read_time: "7 min read",
-    created_on: "2019-12-26T07:31:48.879995Z",
+    created_on: "2018-04-26T07:31:48.879995Z",
     updated_on: "2019-12-26T07:31:48.879995Z",
-    user: "corysims"
+    user: "corysims",
+    avatar: "images/cory-sims.jpg"
   },
   {
     id: 10,
@@ -176,17 +194,19 @@ export const Posts = [
     body:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     image: "images/white-paper.jpg",
-    category: "Career",
+    category: "career",
     tags: ["engineering", "career"],
     slug: "setting-clear-career-goals-as-a-software-engineer",
     likes: 21,
+    featured: true,
     draft: true,
     public: false,
     reported: false,
     report_count: 0,
     read_time: "7 min read",
-    created_on: "2019-12-26T07:31:48.879995Z",
+    created_on: "2018-01-26T07:31:48.879995Z",
     updated_on: "2019-12-26T07:31:48.879995Z",
-    user: "davidblair"
+    user: "davidblair",
+    avatar: "images/david-blair.jpg"
   }
 ];

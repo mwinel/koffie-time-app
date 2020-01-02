@@ -1,7 +1,207 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders default component 1`] = `
-"<div class=\\"container my-5\\">
-  <h1>koffie time app</h1><img src=\\"logo.png\\" alt=\\"logo\\" width=\\"40\\">
+"<div>
+  <section class=\\"featured-section pb-4\\" style=\\"background-image: url(/images/cool-background.png); background-position: 0% 100%;\\">
+    <div class=\\"container\\">
+      <h6 class=\\"grid-title pt-4 pb-2\\">Featured</h6>
+      <div class=\\"row\\">
+        <div class=\\"col-sm-7\\"><a href=\\"/post\\">
+            <div class=\\"featured-post-image-wrapper pb-5\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; height: 350px;\\"></div>
+          </a></div>
+        <div class=\\"col-sm-5\\">
+          <div class=\\"pb-2\\"><small>Jan 26 2018 </small> <span class=\\"dot-divider\\">·</span> <small>7 min read</small></div><a href=\\"/post\\">
+            <h2 class=\\"card-title font-weight-bold\\">Setting clear career goals as a Software Engineer</h2>
+          </a>
+          <div class=\\"flex flex-row flex-nowrap\\">
+            <div class=\\"py-2\\">
+              <div class=\\"author-avatar mr-2\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; width: 36px; height: 36px;\\"></div><small class=\\"username\\"><a href=\\"/\\">@davidblair</a></small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class=\\"container\\">
+    <hr class=\\"mt-3 mb-4\\">
+    <div class=\\"pb-2\\">
+      <h6 class=\\"grid-title pb-3\\">Tutorials</h6>
+      <div class=\\"row\\">
+        <div class=\\"col-sm-4\\">
+          <div class=\\"post-card pb-1\\">
+            <div><a href=\\"/post\\">
+                <div class=\\"card-image\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; height: 185px;\\"></div>
+              </a></div>
+            <div class=\\"flex flex-row flex-nowrap\\">
+              <div class=\\"pt-4\\"><small>Dec 26 2019 </small> <span class=\\"dot-divider\\">·</span> <small>9 min read</small></div><a href=\\"/post\\">
+                <h5 class=\\"card-title font-weight-bold pt-2\\">How to build action android electonic devices.</h5>
+              </a>
+              <div class=\\"py-2\\">
+                <div class=\\"author-avatar mr-2\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; width: 36px; height: 36px;\\"></div><small class=\\"username\\"><a href=\\"/\\">@janedutton</a></small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class=\\"col-sm-4\\">
+          <div class=\\"post-card pb-1\\">
+            <div><a href=\\"/post\\">
+                <div class=\\"card-image\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; height: 185px;\\"></div>
+              </a></div>
+            <div class=\\"flex flex-row flex-nowrap\\">
+              <div class=\\"pt-4\\"><small>Mar 26 2019 </small> <span class=\\"dot-divider\\">·</span> <small>18 min read</small></div><a href=\\"/post\\">
+                <h5 class=\\"card-title font-weight-bold pt-2\\">Consuming a Django RESTful API with React</h5>
+              </a>
+              <div class=\\"py-2\\">
+                <div class=\\"author-avatar mr-2\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; width: 36px; height: 36px;\\"></div><small class=\\"username\\"><a href=\\"/\\">@janedutton</a></small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class=\\"col-sm-4\\">
+          <div class=\\"post-card pb-1\\">
+            <div><a href=\\"/post\\">
+                <div class=\\"card-image\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; height: 185px;\\"></div>
+              </a></div>
+            <div class=\\"flex flex-row flex-nowrap\\">
+              <div class=\\"pt-4\\"><small>Dec 26 2019 </small> <span class=\\"dot-divider\\">·</span> <small>17 min read</small></div><a href=\\"/post\\">
+                <h5 class=\\"card-title font-weight-bold pt-2\\">Building a geometric decoration with Python 3</h5>
+              </a>
+              <div class=\\"py-2\\">
+                <div class=\\"author-avatar mr-2\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; width: 36px; height: 36px;\\"></div><small class=\\"username\\"><a href=\\"/\\">@davidblair</a></small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class=\\"mt-3 mb-4\\">
+    <div class=\\"pb-2\\">
+      <h6 class=\\"grid-title pb-3\\">Engineering</h6>
+      <div class=\\"row\\">
+        <div class=\\"col-sm-4\\">
+          <div class=\\"post-card pb-1\\">
+            <div><a href=\\"/post\\">
+                <div class=\\"card-image\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; height: 185px;\\"></div>
+              </a></div>
+            <div class=\\"flex flex-row flex-nowrap\\">
+              <div class=\\"pt-4\\"><small>Dec 26 2019 </small> <span class=\\"dot-divider\\">·</span> <small>12 min read</small></div><a href=\\"/post\\">
+                <h5 class=\\"card-title font-weight-bold pt-2\\">Understanding Neuro-Networks like a child</h5>
+              </a>
+              <div class=\\"py-2\\">
+                <div class=\\"author-avatar mr-2\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; width: 36px; height: 36px;\\"></div><small class=\\"username\\"><a href=\\"/\\">@janedutton</a></small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class=\\"col-sm-4\\">
+          <div class=\\"post-card pb-1\\">
+            <div><a href=\\"/post\\">
+                <div class=\\"card-image\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; height: 185px;\\"></div>
+              </a></div>
+            <div class=\\"flex flex-row flex-nowrap\\">
+              <div class=\\"pt-4\\"><small>Dec 26 2019 </small> <span class=\\"dot-divider\\">·</span> <small>19 min read</small></div><a href=\\"/post\\">
+                <h5 class=\\"card-title font-weight-bold pt-2\\">Python and Virtual Reality</h5>
+              </a>
+              <div class=\\"py-2\\">
+                <div class=\\"author-avatar mr-2\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; width: 36px; height: 36px;\\"></div><small class=\\"username\\"><a href=\\"/\\">@spydrmn</a></small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class=\\"col-sm-4\\">
+          <div class=\\"post-card pb-1\\">
+            <div><a href=\\"/post\\">
+                <div class=\\"card-image\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; height: 185px;\\"></div>
+              </a></div>
+            <div class=\\"flex flex-row flex-nowrap\\">
+              <div class=\\"pt-4\\"><small>Dec 26 2017 </small> <span class=\\"dot-divider\\">·</span> <small>8 min read</small></div><a href=\\"/post\\">
+                <h5 class=\\"card-title font-weight-bold pt-2\\">Sketching your next project System Design</h5>
+              </a>
+              <div class=\\"py-2\\">
+                <div class=\\"author-avatar mr-2\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; width: 36px; height: 36px;\\"></div><small class=\\"username\\"><a href=\\"/\\">@corysims</a></small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class=\\"mt-3 mb-4\\">
+    <div class=\\"pb-2\\">
+      <h6 class=\\"grid-title pb-3\\">Careers</h6>
+      <div class=\\"row\\">
+        <div class=\\"col-sm-4\\">
+          <div class=\\"post-card pb-1\\">
+            <div><a href=\\"/post\\">
+                <div class=\\"card-image\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; height: 185px;\\"></div>
+              </a></div>
+            <div class=\\"flex flex-row flex-nowrap\\">
+              <div class=\\"pt-4\\"><small>Nov 26 2019 </small> <span class=\\"dot-divider\\">·</span> <small>18 min read</small></div><a href=\\"/post\\">
+                <h5 class=\\"card-title font-weight-bold pt-2\\">Five steps to advance your career as a Software Engineer</h5>
+              </a>
+              <div class=\\"py-2\\">
+                <div class=\\"author-avatar mr-2\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; width: 36px; height: 36px;\\"></div><small class=\\"username\\"><a href=\\"/\\">@davidblair</a></small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class=\\"col-sm-4\\">
+          <div class=\\"post-card pb-1\\">
+            <div><a href=\\"/post\\">
+                <div class=\\"card-image\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; height: 185px;\\"></div>
+              </a></div>
+            <div class=\\"flex flex-row flex-nowrap\\">
+              <div class=\\"pt-4\\"><small>May 26 2019 </small> <span class=\\"dot-divider\\">·</span> <small>12 min read</small></div><a href=\\"/post\\">
+                <h5 class=\\"card-title font-weight-bold pt-2\\">Managing your time as a Remote Software Engineer</h5>
+              </a>
+              <div class=\\"py-2\\">
+                <div class=\\"author-avatar mr-2\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; width: 36px; height: 36px;\\"></div><small class=\\"username\\"><a href=\\"/\\">@spydrmn</a></small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class=\\"mt-3 mb-4\\">
+    <div class=\\"pb-2\\">
+      <h6 class=\\"grid-title pb-3\\">Design</h6>
+      <div class=\\"row\\">
+        <div class=\\"col-sm-4\\">
+          <div class=\\"post-card pb-1\\">
+            <div><a href=\\"/post\\">
+                <div class=\\"card-image\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; height: 185px;\\"></div>
+              </a></div>
+            <div class=\\"flex flex-row flex-nowrap\\">
+              <div class=\\"pt-4\\"><small>Apr 26 2018 </small> <span class=\\"dot-divider\\">·</span> <small>7 min read</small></div><a href=\\"/post\\">
+                <h5 class=\\"card-title font-weight-bold pt-2\\">Top 5 tips for your next design project</h5>
+              </a>
+              <div class=\\"py-2\\">
+                <div class=\\"author-avatar mr-2\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; width: 36px; height: 36px;\\"></div><small class=\\"username\\"><a href=\\"/\\">@corysims</a></small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class=\\"see-more py-5\\"><a href=\\"/all\\"><button class=\\"sc-bwzfXH kmsfxB\\">See More</button></a></div>
+  </div>
+  <section class=\\"newsletter-section my-5\\">
+    <div class=\\"container py-5\\">
+      <div class=\\"row\\">
+        <div class=\\"col-sm-3\\"></div>
+        <div class=\\"col-sm-6\\">
+          <div class=\\"py-5 my-5\\">
+            <h4 class=\\"pb-4\\">Join our newsletter for the latest tips and tricks to grow your career.</h4>
+            <form>
+              <div class=\\"form-group\\"><input type=\\"email\\" class=\\"form-control\\" placeholder=\\"Email Address\\"></div>
+              <div class=\\"form-row\\">
+                <div class=\\"form-group col-md-6\\"><input type=\\"text\\" class=\\"form-control\\" placeholder=\\"First name\\"></div>
+                <div class=\\"form-group col-md-6\\"><input type=\\"text\\" class=\\"form-control\\" placeholder=\\"Last name\\"></div>
+              </div><button type=\\"submit\\" class=\\"sc-bdVaJa gKnoUA btn btn-primary\\">Subscribe Now</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </div>"
 `;

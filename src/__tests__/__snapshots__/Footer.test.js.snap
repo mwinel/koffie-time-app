@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders footer component 1`] = `
+"<div class=\\"container\\">
+  <div class=\\"footer py-5\\">
+    <div class=\\"row\\">
+      <div class=\\"col-lg-3 pb-5\\"><img src=\\"logo.png\\" width=\\"60\\" alt=\\"logo\\"></div>
+      <div class=\\"col-lg-3\\">
+        <p class=\\"footer-title\\">Koffie Time</p>
+        <ul class=\\"list-unstyled\\">
+          <li class=\\"py-1\\"><a class=\\"footer-link\\" href=\\"/\\">Engineering</a></li>
+          <li class=\\"py-1\\"><a class=\\"footer-link\\" href=\\"/\\">Design</a></li>
+          <li class=\\"py-1\\"><a class=\\"footer-link\\" href=\\"/\\">Career</a></li>
+          <li class=\\"py-1\\"><a class=\\"footer-link\\" href=\\"/\\">Tutorial</a></li>
+        </ul>
+      </div>
+      <div class=\\"col-lg-3\\">
+        <p class=\\"footer-title\\">Social</p>
+        <ul class=\\"list-unstyled\\">
+          <li class=\\"py-1\\"><a class=\\"footer-link\\" href=\\"/\\">Twitter</a></li>
+          <li class=\\"py-1\\"><a class=\\"footer-link\\" href=\\"/\\">Instagram</a></li>
+        </ul>
+      </div>
+      <div class=\\"col-lg-3\\">
+        <p class=\\"footer-title\\">More</p>
+        <ul class=\\"list-unstyled\\">
+          <li class=\\"py-1\\"><a class=\\"footer-link\\" href=\\"/\\">About</a></li>
+          <li class=\\"py-1\\"><a class=\\"footer-link\\" href=\\"/\\">Start Writing</a></li>
+          <li class=\\"py-1\\"><a class=\\"footer-link\\" href=\\"/\\">Sponsor</a></li>
+          <li class=\\"py-1\\"><a class=\\"footer-link\\" href=\\"/\\">Help</a></li>
+          <li class=\\"py-1\\"><a class=\\"footer-link\\" href=\\"/\\">Shop</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>"
+`;

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders copyright-text component 1`] = `
+"<div class=\\"footer-bottom py-4\\">
+  <div class=\\"container\\">
+    <div class=\\"copyright-text\\"><small class=\\"mr-3\\">© KoffieTime 2019</small><small class=\\"mr-3\\"><a class=\\"copyright-text-link\\" href=\\"/\\">Terms</a></small><small class=\\"mr-3\\"><a class=\\"copyright-text-link\\" href=\\"/\\">Privacy</a></small></div>
+  </div>
+</div>"
+`;

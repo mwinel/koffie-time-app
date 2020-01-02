@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders avatar component 1`] = `"<div class=\\"author-avatar mr-2\\" style=\\"background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; width: 36px; height: 36px;\\"></div>"`;
